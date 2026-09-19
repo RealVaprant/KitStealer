@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "kitstealer",
+  "version": "${version}",
+  "name": "Kit Stealer",
+  "description": "Save, steal, and load multiple player inventory kits.",
+  "authors": [
+    "Wayne"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.kitstealer.KitStealerClient"
+    ]
+  },
+  "mixins": [
+    "kitstealer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": ">=${fabric_version}"
+  }
+}

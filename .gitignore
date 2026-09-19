@@ -1,0 +1,14 @@
+.gradle/
+build/
+run/
+.idea/
+*.iml
+out/
+runtime/
+worlds/
+logs/
+crash-reports/
+*.log
+*.exe
+*.class
+
