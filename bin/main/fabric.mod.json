@@ -3,6 +3,7 @@
   "id": "kitstealer",
   "version": "${version}",
   "name": "Kit Stealer",
+  "icon": "assets/kitstealer/icon.png",
   "description": "Save, steal, and load multiple player inventory kits.",
   "authors": [
     "Wayne"
